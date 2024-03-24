@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    border: 0;
+    
+}
+.foto_portada{
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("img/.foto_portada");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    background-color: yellow;
+}

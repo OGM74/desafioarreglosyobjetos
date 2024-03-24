@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    border: 0;
+    ;
+    
+}
+.header{
+    height: 16em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../img/FOTO_PORTADA.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header h1{
+    text-align: end;
+    color: white;
+}
+.alquileres{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    
+}
+.alquileres> div{
+    border:2px solid gray;
+    padding: 10px;
+    color:black;
+
+}
+.venta{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    
+}
+.venta> div{
+    border:2px solid gray;
+    padding: 10px;
+    color:black;
+}
+.fotos1{
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+}
+.portadalquiler{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+    
+button{
+    color: yellow;
+    background-color: gray;
+}
+.botoneshead{
+    display: flex;
+    justify-content: flex-start;
+    background-color: aqua;
+    
+    
+}
+.botonhead{
+    color: black;
+    background-color: gainsboro;
+}
+
+
+
+.portadaventa{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+.fotos2{
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+}
